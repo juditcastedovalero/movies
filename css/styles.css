@@ -119,6 +119,7 @@ img {
 .aside .top-icons {
     position: sticky;
     top: 0;
+    transform: translate3d(0,0,0);
 }
 
 .top-icons figure {
@@ -131,6 +132,7 @@ img {
     position: sticky;
     bottom: 0;
     justify-self: flex-end;
+    transform: translate3d(0,0,0);
 }
 
 .aside figure img{
