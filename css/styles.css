@@ -211,6 +211,7 @@ img {
 
 .text-description {
     font-size: 1.4rem;
+    text-align: justify;
 }
 
 
@@ -250,10 +251,26 @@ img {
     .aside figcaption {
         display: none;
     }
-    .main {
-        max-width: 80%;
-        margin: 0 auto;
+    .envolvente .image .title {
+        font-size: 2rem;
+    }
+    .title-description {
+        font-size: 1.8rem;
+    }
+    .text-description {
+        font-size: 1.2rem;
+    }
+    .container {
+        grid-template-columns: 5rem 1fr;
+        grid-template-rows: 5rem 1fr;
+    }
+    .envolvente {
+        grid-template-columns: repeat(auto-fit, 25rem);
+        margin-top: 6.5rem;
+        padding: 1rem;
+    }
+    .content-main .image {
+        max-width: 25rem;
     }
 }
-
 
