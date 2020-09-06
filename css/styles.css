@@ -241,6 +241,7 @@ img {
 @media (max-width: 561px) {
     .header {
         grid-template-columns: 40px 1fr 60px;
+        padding: 0;
     }
     .title-header {
         display: none;
